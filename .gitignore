@@ -1,0 +1,18 @@
+# The repo shows only the current project (see CLAUDE.md).
+# Old sites live in their own day folders; these stay local and never go into git.
+archive/
+raw/
+docs/SITES-LOG.md
+recordings/
+
+# dependencies, builds, secrets, system files
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+.env*
+.DS_Store
+
+# other tools' local worktrees (they hold copies of older sites)
+.kilo/
